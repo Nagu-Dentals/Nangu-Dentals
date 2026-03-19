@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nagu Dental Clinic | Precision Care &amp; Ethereal Comfort</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#ffffff",
+              "on-background": "#191c1e",
+              "primary-fixed": "#cde5ff",
+              "on-tertiary-fixed": "#001c3a",
+              "on-primary-fixed-variant": "#004a75",
+              "secondary-fixed-dim": "#bec6e0",
+              "surface-container-lowest": "#ffffff",
+              "surface-container": "#eceef0",
+              "on-primary": "#ffffff",
+              "on-secondary": "#ffffff",
+              "primary-fixed-dim": "#95ccff",
+              "surface-bright": "#f7f9fb",
+              "on-surface": "#191c1e",
+              "error": "#ba1a1a",
+              "on-primary-fixed": "#001d32",
+              "on-secondary-fixed": "#131b2e",
+              "surface": "#f7f9fb",
+              "surface-tint": "#00639a",
+              "on-tertiary-container": "#fefcff",
+              "surface-container-low": "#f2f4f6",
+              "surface-container-highest": "#e0e3e5",
+              "background": "#f7f9fb",
+              "on-error": "#ffffff",
+              "inverse-on-surface": "#eff1f3",
+              "on-secondary-fixed-variant": "#3f465c",
+              "outline": "#707882",
+              "inverse-surface": "#2d3133",
+              "surface-dim": "#d8dadc",
+              "on-surface-variant": "#3f4851",
+              "tertiary-fixed": "#d4e3ff",
+              "secondary-container": "#dae2fd",
+              "inverse-primary": "#95ccff",
+              "primary-container": "#007abc",
+              "on-error-container": "#93000a",
+              "secondary-fixed": "#dae2fd",
+              "surface-container-high": "#e6e8ea",
+              "on-secondary-container": "#5c647a",
+              "error-container": "#ffdad6",
+              "on-primary-container": "#fdfcff",
+              "on-tertiary-fixed-variant": "#2f486a",
+              "outline-variant": "#bfc7d2",
+              "tertiary": "#455d80",
+              "secondary": "#565e74",
+              "tertiary-fixed-dim": "#afc8f0",
+              "surface-variant": "#e0e3e5",
+              "primary": "#006196",
+              "tertiary-container": "#5d769a"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .active-nav-border {
+            border-bottom: 2px solid #006196;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface overflow-x-hidden">
+<!-- TopNavBar (Elite Nav) -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-[0px_10px_30px_rgba(0,0,0,0.03)]">
+<nav class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-extrabold tracking-tighter text-[#0085CC] font-headline">
+                Nagu Dental Clinic
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-[#0085CC] font-bold border-b-2 border-[#0085CC] pb-1 font-headline hover:scale-105 transition-transform duration-300" href="#">Services</a>
+<a class="text-slate-600 font-medium hover:text-[#0085CC] font-headline hover:scale-105 transition-transform duration-300" href="#">Our Doctors</a>
+<a class="text-slate-600 font-medium hover:text-[#0085CC] font-headline hover:scale-105 transition-transform duration-300" href="#">Gallery</a>
+<a class="text-slate-600 font-medium hover:text-[#0085CC] font-headline hover:scale-105 transition-transform duration-300" href="#">Articles</a>
+<a class="text-slate-600 font-medium hover:text-[#0085CC] font-headline hover:scale-105 transition-transform duration-300" href="#">Booking</a>
+</div>
+<div class="flex items-center space-x-4">
+<div class="hidden sm:flex items-center space-x-2 bg-green-50 px-3 py-1 rounded-full">
+<span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+<span class="text-xs font-bold text-green-700 uppercase tracking-wider">Live Status: Online</span>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-bold font-headline hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/20">
+                    Emergency Call
+                </button>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="relative pt-32 pb-20 px-8 overflow-hidden min-h-screen flex items-center">
+<div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary-fixed/30 to-transparent -z-10 rounded-l-[100px]"></div>
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+<div class="space-y-8">
+<div class="inline-flex items-center space-x-2 bg-surface-container-high px-4 py-2 rounded-full">
+<span class="material-symbols-outlined text-primary" data-icon="verified">verified</span>
+<span class="text-sm font-semibold text-on-surface-variant uppercase tracking-widest">ISO 9001:2015 Certified</span>
+</div>
+<h1 class="text-6xl md:text-7xl font-extrabold font-headline leading-[1.1] tracking-tighter text-on-surface">
+                    Precision Care, <br/>
+<span class="text-primary italic font-medium">Ethereal Comfort.</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-lg leading-relaxed">
+                    Experience the next generation of dentistry at Nagu Dental. We blend advanced surgical precision with a sanctuary aesthetic designed to eliminate anxiety.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 active:scale-95 transition-all shadow-xl shadow-primary/20">
+                        Book Appointment
+                    </button>
+<button class="bg-surface-container-lowest text-on-surface px-8 py-4 rounded-xl font-bold text-lg hover:bg-surface-container-low transition-all">
+                        View Services
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="rounded-[2.5rem] overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-700">
+<img class="w-full h-[600px] object-cover" data-alt="Modern high-end dental surgery suite" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOEv3fpyMDtZOwwujkQyIoBvFcotC7yGH7qpFGe69W0jnWajVY9yzf3C3X9MqfkoBxJOjCMj4mcDQzMyxBdOOTULjtiEhk3ODyn3STCWVXdlXPvtqMFvE6-_fUbUwZNs2qjZxfGOCgSdO3jFw-7AJtIrduxZjHxrSlqN0zBNCZ47JjtELCTgSjg0tui0OybOMPR-fdIW1YlHSvNYQHAmaTuhnSrEqwBvV2OOGmZwbnn11vMEaZoitC6_Ku-Pq3sub2UWNKDfFh_QBt"/>
+</div>
+<div class="absolute -bottom-10 -left-10 glass-card p-8 rounded-xl shadow-xl max-w-[280px]">
+<div class="flex items-center space-x-4 mb-4">
+<div class="w-12 h-12 bg-primary-fixed rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="star" data-weight="fill" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div>
+<p class="font-bold text-2xl">4.9/5</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-tighter">Patient Satisfaction</p>
+</div>
+</div>
+<p class="text-sm text-on-surface-variant italic">"The most painless root canal I've ever experienced. Truly a sanctuary."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Doctors Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-20">
+<h2 class="text-4xl font-extrabold font-headline mb-4">Meet Our Visionaries</h2>
+<div class="h-1.5 w-24 bg-primary mx-auto rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<!-- Dr. Bashishta -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col md:flex-row gap-8 items-center hover:translate-y-[-8px] transition-transform duration-500">
+<img class="w-48 h-48 rounded-2xl object-cover shadow-lg" data-alt="Professional male dentist portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDidnIWvb0ZRKARQdbTpfE74XC9zWiHUkN5ZlvPtVpZTQ1pmrI2VLg5rChjLHOG9dScDcFGPuQOKWvd5eipQvdaF-em8vWr10jLn_liAFaxChE4Hs8NptjqfdG_cmANRlF_M131vLkAjws_6uf-MQ-OyxTDOAIMwvwsGspBn_9OLELMKKOnz56d8D6tBFTgiCuGxBnfVQrHW0_EaW5IA_ZUc61zBVF0l-Vj4r7Ue7tO8f7e5bKUdGoUOByx9cHZ0wQRNEXR5TOW3AxM"/>
+<div class="space-y-4">
+<h3 class="text-2xl font-bold font-headline">Dr. Bashishta (B.D.S)</h3>
+<p class="text-primary font-bold uppercase tracking-widest text-xs">10+ Years Experience</p>
+<p class="text-on-surface-variant leading-relaxed">Specializing in Advanced Surgical Precision and Implantology, Dr. Bashishta brings over a decade of clinical excellence to Hegganahalli.</p>
+<div class="flex gap-2">
+<span class="bg-surface px-3 py-1 rounded-full text-xs font-semibold">Surgery</span>
+<span class="bg-surface px-3 py-1 rounded-full text-xs font-semibold">Implants</span>
+</div>
+</div>
+</div>
+<!-- Dr. Ankita Reddy -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col md:flex-row gap-8 items-center hover:translate-y-[-8px] transition-transform duration-500">
+<img class="w-48 h-48 rounded-2xl object-cover shadow-lg" data-alt="Professional female dentist portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQAMZoIVnxnuRAwManuxSDac6fdr5nh-SuXBvsjPmthL2ExTQOSAInnKKfnQ9bybNb_E5rmaSBiLtFOP-Cj_VEX0inh75AIwDBqnlLRndJEbCUhLbc-p5HDJiIF2dr8D-1A_NgTxJhyEC-KfNzyiMrvbjwTCKNvq7l_z9ybcgqnc5QtpIJaFRaQusM6o3xj-wb7LpYKfJ-nWFLXvzdNSZTh8TLrRAiWzo4SPAf2P46hCuZedz-jrgM8zM6_FoW-e4LeJQGwLnebYyk"/>
+<div class="space-y-4">
+<h3 class="text-2xl font-bold font-headline">Dr. Ankita Reddy (B.D.S)</h3>
+<p class="text-primary font-bold uppercase tracking-widest text-xs">Aesthetic Specialist</p>
+<p class="text-on-surface-variant leading-relaxed">Dedicated to Cosmetic Dentistry and Orthodontics, Dr. Reddy focuses on creating the perfect, symmetrical smile through art and science.</p>
+<div class="flex gap-2">
+<span class="bg-surface px-3 py-1 rounded-full text-xs font-semibold">Cosmetics</span>
+<span class="bg-surface px-3 py-1 rounded-full text-xs font-semibold">Orthodontics</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-extrabold font-headline mb-2">Our Clinical Suite</h2>
+<p class="text-on-surface-variant">Comprehensive dental solutions powered by precision technology.</p>
+</div>
+<button class="text-primary font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform">
+<span>Explore All Services</span>
+<span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Service Card 1 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Microscopic view of dental root canal procedure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKF60kb626fkTOfYzJ_5rglLYSG8jHFeccdZXjLBjyEd12vkL4oZHon1FbAf8Q4hI3YfxKWHv1_aBm9rB7Csh746BGWWYcQuE7prKZQlJuJGYLMWwjjw58AKtwD55bKmYbhMawOERyTjlGoYnPctfRmJkjLHjcGDj07VfE2-RPnGf2THWFwyg9KvpKA1B9VzHyQ0VnglMU20-hKVByGYvKXl1SZuvJYkGs5_9GcMA5YgN3YpmolXhQPZzp93qveP8rbeArdvxvA8I9"/>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold font-headline mb-2">Root Canal</h4>
+<p class="text-sm text-on-surface-variant mb-6">Painless endodontic therapy to save your natural teeth with precision.</p>
+<button class="text-primary text-sm font-bold flex items-center gap-1 group/btn">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="High quality titanium dental implant model" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_zbkiU5PWJ7g1KMOjvxSdeJ-9klmbqSaESvMb3itfI7JCsD3RusQ-P91-huWlCe39sNhMtA-oUwBSXUfkFeaVxM-nka_qH3-24xq8eQhjdefTcpIIYR5hnFVYZNd6E0lsWLJUke1ed4ErHAND62T0IJwJ8nj6_BVC-KrhFofVFn7UWEqUecIVtTHHyTHWKogglJK834NK0JDEfk9a_iDFbZNpjoPwfiuFF7_8tqmF8lil_G398GwtkFaGtdG6cIuhWTBBMzJosRHS"/>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold font-headline mb-2">Dental Implants</h4>
+<p class="text-sm text-on-surface-variant mb-6">Permanent, biocompatible tooth replacement for a life-long natural smile.</p>
+<button class="text-primary text-sm font-bold flex items-center gap-1 group/btn">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close up of modern orthodontic braces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmQy2Ue5WbxG0ofAUviYw_kmvV1ws2D1JFpnK8TTKKs6E0HRHiNjhnosA3Sh54a7qH35HSWNA0wLN7hv3MOo3xH44bqpkEvxlZjokCNgSIKlYupIYFfuJnGMVFBYvjNPudYc5Db-UEGL9BxE5ShmPfG9RKTMJO-4H0nOI0zyyVVNAkvn5mjpLbo2D2G_Z0ePolsVgenqyBvHQvB3M3E8eWVqhF1nL5tj9fSiD7ouCP0s7FmzU-hTBNNBp1cme0wLXRAzP3qn0L3nxn"/>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold font-headline mb-2">Orthodontics</h4>
+<p class="text-sm text-on-surface-variant mb-6">Advanced braces and clear aligners for perfect dental alignment.</p>
+<button class="text-primary text-sm font-bold flex items-center gap-1 group/btn">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service Card 4 -->
+<div class="group relative bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Patient undergoing laser teeth whitening" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDM2pWOJiCKLsLs4mQqNEqYgr55ZwDSKgVRozeIrqXT-ekolGD5qP5cvYH7UVuZJxiTES0e4mL75u9roaFXKyQXsC6NbM2vY3qs4uQL66t7Y1AdfxXST1cTTr1Oic2VYuKKp4y3MNlX_5IylCmn_CmstsS9MjJWvznR99XonTAEVY--lGfBz-HDZITzTUTA7nFYYKsTo69UPTr_2D8cNQ3n_58QxOewaMC9N6PBB0yNkntidwEhhUIDkHi7Si2z7BsZJR0L8UWyqQj8"/>
+</div>
+<div class="p-6">
+<h4 class="text-xl font-bold font-headline mb-2">Teeth Whitening</h4>
+<p class="text-sm text-on-surface-variant mb-6">Laser-powered aesthetic whitening for instant clinical results.</p>
+<button class="text-primary text-sm font-bold flex items-center gap-1 group/btn">
+                            Learn More <span class="material-symbols-outlined text-sm group-hover/btn:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-24 bg-surface-container-highest/20 relative">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid lg:grid-cols-4 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="sanitizer">sanitizer</span>
+<h5 class="text-lg font-bold font-headline mb-2">ISO Sterilization</h5>
+<p class="text-sm text-on-surface-variant">Class B Autoclave systems ensuring surgical-grade hygiene levels.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="bolt">bolt</span>
+<h5 class="text-lg font-bold font-headline mb-2">Painless Tech</h5>
+<p class="text-sm text-on-surface-variant">Utilizing digital anesthesia and minimally invasive techniques.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="payments">payments</span>
+<h5 class="text-lg font-bold font-headline mb-2">Affordable Elite</h5>
+<p class="text-sm text-on-surface-variant">Premium clinical experience at competitive, transparent pricing.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="calendar_today">calendar_today</span>
+<h5 class="text-lg font-bold font-headline mb-2">Open Everyday</h5>
+<p class="text-sm text-on-surface-variant">Available all week long to cater to your dental emergencies.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Clinic Gallery (Masonry Style) -->
+<section class="py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<h2 class="text-4xl font-extrabold font-headline mb-12 text-center">Our Clinical Sanctuary</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-[600px]">
+<div class="col-span-2 row-span-2 rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Clean and modern clinic waiting area" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUXursRlMXtz989WQcKA-wOns-t6kYqtGX1Zsu77K5RsOz8uhuv420PrxgfOARSqZZ-mz1tDsPXJPQpcMJrOLT9-soJWJzNSatpX_roFIRgv9NXJ-U-j1iljfrzO-CFrjAm4ZH-nqEDXFdMywA1TTCcRcjGtJ00hHon_0ULnFayJ9UCQ75JkGwuBZ6HPEk0bJEevx5yw9IdaJmDOS3THmZBroOOs-FHzGYqJBfpS6m29GYh2MhMojfzjcuhjxkh3mkVWQ-wRv79r24"/>
+</div>
+<div class="rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High tech dental machinery closeup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPWxbgUE9b6UNMS7RRJU4eqIUxPxHn6_3TLzEcwW7bV7TNg0xkLwrEzoq4umHNILPNJBtNZRVy4CegpBv3XGy8RojXBxWPBZvlpEB0ezbmGTbDKoc-cpJtokJ_HxNMlmUbxCEhsOaBWvXbkGhGOqxHn3AJq0gL4D9uzX0uG9BImRRl2MFvK1lUSQCHhV2GYrgauM2_GBxlbSPLYGUtFW0s8OwqlBTTA4LnUlyDMJ0ZovYstR_cL1XeoFs9V7Cdg4XHm8ykH-Zlf9pz"/>
+</div>
+<div class="rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Dental tools organized in sterile environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSW52ERTNJdio3_VgButgtSttNT3h9nxzHGwST3PM7WPtxOIf9JxnnOwFxwOokumuOqboIKH5o8s2k09szEvR2V3DJ42TCEYwGytLQVb_86k7Tnob5oHIjSwBLLuiES4xAT6aD3pXc3eGPyPAaabMC4lUnsVmWKx6nF-psRfH7w4qSwjwi9alXyEtWnjU3Iw7bnNEybWhGTwz5On7F6JpKMFxD0DMZnVWWTdWD3CXSx66dqb4k3Yn9fdV0fyWZYW4GIspgchor-bCh"/>
+</div>
+<div class="col-span-2 rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Modern office architectural details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5teU7_-FWvGqrM-up5FK30eoyyBAD1ZBGyAjP0E8vJWD_jM-Fm1N0GlwXL5jQmJjQClWreu5xhmCeAKiddCiyEOXLHQu0o6_qTsqfJ87K7GvmfF1hsnmrW8iucamImd9dT_DEP_csJKkYGgzjPTVRg4P3GQbXDhi8fa_loj4eF003bsFHXiz2R1v53hxGn85ALnOmcG22ujdBQlR0drnkX-5DjSwe4rXVCtBUUQHgEC9rzuOHvjGsEUmjcveF4bQjuAlYIhwSp9R1"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Booking Engine -->
+<section class="py-24 bg-primary-fixed/20 relative overflow-hidden">
+<div class="max-w-4xl mx-auto px-8 relative z-10">
+<div class="bg-surface-container-lowest p-10 md:p-16 rounded-[2.5rem] shadow-2xl">
+<div class="text-center mb-12">
+<h2 class="text-4xl font-extrabold font-headline mb-4">Book Your Sanctuary Visit</h2>
+<p class="text-on-surface-variant">Select your preferred branch and time slot for a seamless experience.</p>
+</div>
+<form class="grid md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant ml-1 uppercase tracking-wider">Patient Name</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant ml-1 uppercase tracking-wider">Phone Number</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" placeholder="+91 XXXXX XXXXX" type="tel"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant ml-1 uppercase tracking-wider">Select Branch</label>
+<select class="w-full bg-surface-container-high border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none appearance-none">
+<option>Hegganahalli Branch</option>
+<option>Srigandha Nagar Branch</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold text-on-surface-variant ml-1 uppercase tracking-wider">Preferred Date</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" type="date"/>
+</div>
+<div class="md:col-span-2 pt-4">
+<button class="w-full bg-primary text-on-primary py-5 rounded-xl font-bold text-lg hover:bg-primary-container active:scale-[0.98] transition-all shadow-xl shadow-primary/30" type="submit">
+                            Confirm Appointment Request
+                        </button>
+</div>
+</form>
+</div>
+</div>
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-container/10 rounded-full blur-[100px]"></div>
+<div class="absolute -bottom-24 -left-24 w-96 h-96 bg-primary/10 rounded-full blur-[100px]"></div>
+</section>
+<!-- Articles Section -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<h2 class="text-4xl font-extrabold font-headline mb-12">Oral Health Insights</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<article class="space-y-4 group cursor-pointer">
+<div class="rounded-xl overflow-hidden h-64 shadow-md">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of toothbrush and toothpaste" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD69nj6y9f2rjFe9L-_VOBTc-X8v6MxJ0EhLevso23BB2q78hiL-KrO9DWTz9aGMLPoR4_fJTe7Ogiw4vG2nfDk1mMX7KsLlhfL01sSjXrgHyLZeY5mnAF5JDD9ZIBMBa461NIgxulk4MoMe77M3a3n0CDJs1yvauFB5WC7ZjlISstc9x0X8ujYtCO_p9dVPKC--65DW7h6JwKEaOBcN2H3oRhFnMOMrNgzwLO235_jDiq_JSmXMH_jM0bCZbVLwnfWXS93UBa8iLPw"/>
+</div>
+<div class="space-y-2">
+<span class="text-xs font-bold text-primary uppercase">Clinical Advice</span>
+<h4 class="text-xl font-bold font-headline group-hover:text-primary transition-colors">The Science of Brushing: Beyond the Surface</h4>
+<p class="text-sm text-on-surface-variant">Understanding the microscopic impact of proper oral hygiene routines...</p>
+</div>
+</article>
+<article class="space-y-4 group cursor-pointer">
+<div class="rounded-xl overflow-hidden h-64 shadow-md">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Professional dental examination tools" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMPEHXoNRW8Lnmgi0fyvxg58cNIGr5LO72MIhprFKdNcgerO6PeLsXrFLNoTENr92SwszZlgvp0kxri0wJR0_Urcr5tn3HYUciMqfRbFPo_OrmgsmQutHtLmPsk7evFkJ0RW-r8Rd_qkrbuUVR4zEnvVprnwQ7epNlhqMue_CFJVUKNcJ2kWBXA4yQ1P9KuonFSFZzbGWtohAjA-XAvGqkGoxmkPfqel1vSLP9m6LQ49jlTzqu0JFg-uai4hQJlMNoQ-y-42D1EAbG"/>
+</div>
+<div class="space-y-2">
+<span class="text-xs font-bold text-primary uppercase">Modern Tech</span>
+<h4 class="text-xl font-bold font-headline group-hover:text-primary transition-colors">Digital Dentistry &amp; Your Recovery Time</h4>
+<p class="text-sm text-on-surface-variant">How intra-oral scanners are revolutionizing patient experiences...</p>
+</div>
+</article>
+<article class="space-y-4 group cursor-pointer">
+<div class="rounded-xl overflow-hidden h-64 shadow-md">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Person with a healthy white smile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm5m4pj-aOwxZvro_NhDbH8yzmRJejD1tjr0_efQbXD1YutKemD09JnVsXevkTVyY2iHKxbK3Fn-snJTmkmFsiBrOI4uJmN8mXuYJFfqWX27T6SBAiC1aNqUPBBST57Ox_wFOirfH7LP_daZq_XKaNWVh44C04YWnIo5cGQqKrW_2IGCji3sRks3NUzK4pd7Vdm0GSnLhHMc1HTvp7jSvO0QOsNWLqEXACXn8A3Y0KwCu3-jMMpVd7G1iFBLqKJVh7Fuu-GY-fiQ_A"/>
+</div>
+<div class="space-y-2">
+<span class="text-xs font-bold text-primary uppercase">Aesthetics</span>
+<h4 class="text-xl font-bold font-headline group-hover:text-primary transition-colors">Aligners vs Braces: Choosing Your Path</h4>
+<p class="text-sm text-on-surface-variant">A clinical comparison for adults seeking the perfect smile alignment...</p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-50 border-t border-slate-100 pt-16 pb-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-8 max-w-7xl mx-auto pb-16">
+<div class="space-y-6">
+<div class="font-manrope text-2xl font-bold text-slate-900">Nagu Dental Clinic</div>
+<p class="text-sm text-slate-500 leading-relaxed max-w-xs">
+                    Leading the future of dental care in Bengaluru with advanced surgical precision and compassionate patient support.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-white shadow-sm flex items-center justify-center rounded-full hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-sm" data-icon="facebook">social_leaderboard</span></a>
+<a class="w-10 h-10 bg-white shadow-sm flex items-center justify-center rounded-full hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-sm" data-icon="instagram">camera</span></a>
+</div>
+</div>
+<div class="space-y-6">
+<h6 class="font-headline font-bold text-slate-900 uppercase tracking-widest text-xs">Our Locations</h6>
+<div class="space-y-4">
+<div>
+<p class="font-bold text-slate-800 text-sm">Hegganahalli Branch</p>
+<p class="text-sm text-slate-500">Opp. Suresh Hospital, Hegganahalli Main Road, Bengaluru</p>
+</div>
+<div>
+<p class="font-bold text-slate-800 text-sm">Srigandha Nagar Branch</p>
+<p class="text-sm text-slate-500">Near KTG College, Srigandha Nagar, Bengaluru</p>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<h6 class="font-headline font-bold text-slate-900 uppercase tracking-widest text-xs">Quick Links</h6>
+<div class="grid grid-cols-2 gap-2">
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Services</a>
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Our Doctors</a>
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Contact Us</a>
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Gallery</a>
+<a class="text-sm text-slate-500 hover:text-primary" href="#">Booking</a>
+</div>
+</div>
+</div>
+<div class="border-t border-slate-200 pt-8 px-8 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-slate-400">© 2024 Nagu Dental Clinic. Precision Care, Ethereal Comfort.</p>
+<div class="flex gap-6">
+<span class="text-xs text-slate-400 flex items-center gap-1"><span class="material-symbols-outlined text-xs" data-icon="verified_user">verified_user</span> HIPAA Compliant</span>
+<span class="text-xs text-slate-400 flex items-center gap-1"><span class="material-symbols-outlined text-xs" data-icon="security">security</span> SSL Secured</span>
+</div>
+</div>
+</footer>
+<!-- Floating CTA Hub -->
+<div class="fixed bottom-8 right-8 z-[100] flex flex-col items-end space-y-4">
+<a class="bg-surface-container-lowest text-primary p-4 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all group" href="tel:+918861932535">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+<span class="absolute right-full mr-4 bg-slate-900 text-white px-3 py-1 rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Call Now</span>
+</a>
+<a class="bg-[#25D366] text-white p-5 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all group" href="https://wa.me/918861932535">
+<svg class="w-6 h-6 fill-current" viewbox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+<span class="absolute right-full mr-4 bg-slate-900 text-white px-3 py-1 rounded text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">Chat on WhatsApp</span>
+</a>
+</div>
+</body></html>
